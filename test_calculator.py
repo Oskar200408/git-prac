@@ -11,7 +11,9 @@ def test_sub():
 
 def test_div():
   assert div(10, 5) == 2
-  assert div(10, 0) == None
+
+def test_div_zero():
+  assert div(10,0) == None
 
 def test_mult():
   assert mult(5, 5) == 25
