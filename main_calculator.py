@@ -20,5 +20,5 @@ def main_calculator():
   else:
     print("Please try again")
 
-if __name__ == "__main_calculator__"
+if __name__ == "__main_calculator__":
   main_calculator()
