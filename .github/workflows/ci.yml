@@ -16,5 +16,11 @@ jobs:
         with:
           python-version: 3.11
 
+      - name: Install pytest
+        run: pip install pytest
+
       - name: Run Python script
-        run: python main.py
+        run: python main_calculator.py
+
+      - name: Test Calculator Python
+        run: pytest
