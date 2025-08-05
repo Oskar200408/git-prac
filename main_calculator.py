@@ -17,7 +17,7 @@ def main_calculator():
     print("Your result is :")
   elif sign == "divide":
     print("Your result is :")
-  else
+  else:
     print("Please try again")
 
 if __name__ == "__main_calculator__"
