@@ -9,3 +9,5 @@ def mult(x, y):
 
 def div(x, y):
   return x / y
+  if div(x, y) == 0:
+    return None
