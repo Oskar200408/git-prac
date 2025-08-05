@@ -1,4 +1,4 @@
-def main()
+def main():
   print("Python script check")
 
 if __name__ == "__main__":
