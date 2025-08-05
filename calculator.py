@@ -7,8 +7,11 @@ def sub(x, y):
 def mult(x, y):
   return x * y
 
-def div(x, y): # test comment
-  if x or y == 0:
+def div(x, y):
+  if x == 0:
+    return None
+  if y == 0:
     return None
   else:
     return x / y
+  
