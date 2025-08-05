@@ -8,7 +8,7 @@ def mult(x, y):
   return x * y
 
 def div(x, y):
-if x or y == 0:
-  return None
-else:
-  return x / y
+  if x or y == 0:
+    return None
+  else:
+    return x / y
