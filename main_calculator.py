@@ -15,8 +15,10 @@ def main_calculator():
     sub(x, y)
   elif sign == "multiply":
     print("Your result is :")
+    mult(x, y)
   elif sign == "divide":
     print("Your result is :")
+    div(x, y)
   else:
     print("Please try again")
 
